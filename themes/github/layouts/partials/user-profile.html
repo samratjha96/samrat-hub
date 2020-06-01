@@ -79,28 +79,10 @@
                     </svg>
                 </a>
                 {{ end }}
-                {{ if .Site.Params.misskey}}
+                {{ if .Site.Params.linkedin}}
                 <a class="avatar-group-item" data-hovercard-type="organization"
-                    href="{{ .Site.Params.misskey }}">
-                    <img src="{{ "images/misskey.png" | absURL }}" class="avatar" width="35" height="35">
-                </a>
-                {{ end }}
-                {{ if .Site.Params.mastodon}}
-                <a class="avatar-group-item" data-hovercard-type="organization"
-                    href="{{ .Site.Params.mastodon }}">
-                    <img src="{{ "images/mastodon.png" | absURL }}" class="avatar" width="35" height="35">
-                </a>
-                {{ end }}
-                {{ if .Site.Params.facebook}}
-                <a class="avatar-group-item" data-hovercard-type="organization"
-                    href="https://facebook.com/{{ .Site.Params.facebook }}">
-                    <img src="{{ "images/facebook.png" | absURL }}" class="avatar" width="35" height="35">
-                </a>
-                {{ end }}
-                {{ if .Site.Params.Twitter}}
-                <a class="avatar-group-item" data-hovercard-type="organization"
-                    href="https://twitter.com/{{ .Site.Params.Twitter }}">
-                    <img src="{{ "images/twitter.png" | absURL }}" class="avatar" width="35" height="35">
+                    href="https://linkedin.com/in/{{ .Site.Params.linkedin }}">
+                    <img src="{{ "images/linkedin.png" | absURL }}" class="avatar" width="35" height="35">
                 </a>
                 {{ end }}
                 <a class="avatar-group-item" data-hovercard-type="organization"

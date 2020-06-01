@@ -1,6 +1,5 @@
-baseurl = "FILL ME IN"
 languageCode = "en-us"
-title = "FILL ME IN"
+title = "Samrat Jha's Hub"
 theme = "github"
 copyright = "Samrat Jha"
 
@@ -10,3 +9,13 @@ copyright = "Samrat Jha"
 [Permalinks]
   blog = "/:year/:month/:filename/"
   code = "/:filename/"
+
+[params]
+  author = "Samrat Jha"
+  description = "My personal Github Themed website"
+  github = "samratjha96"
+  linkedin = "samratjha96"
+  email = "samratjha96@gmail.com"
+  utterances = "example/example.github.io"
+  url = "https://example.com"
+  keywords = "samrat jha, website, portfolio"
