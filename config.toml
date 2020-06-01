@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Samrat Jha's Hub"
 theme = "github"
-copyright = "Samrat Jha"
+Copyright = "Samrat Jha. All rights reserved."
 
 [Author]
   name = "Samrat Jha"
