@@ -12,10 +12,10 @@
             </a>
             {{ else }}
             <a itemprop="image" class="u-photo d-block position-relative" aria-hidden="true"
-                href="{{ "images/avatar.png" | absURL }}">
+                href="{{ "images/user-profile.png" | absURL }}">
 
                 <img alt="" width="260" height="260"
-                    class="avatar width-full height-full rounded-2" src="{{ "images/avatar.png" | absURL }}" />
+                    class="avatar width-full height-full rounded-2" src="{{ "images/user-profile.png" | absURL }}" />
             </a>
            {{ end }}
         </div>
@@ -25,8 +25,6 @@
                 <h1 class="vcard-names">
                     <span class="p-name vcard-fullname d-block overflow-hidden"
                         itemprop="name">{{ .Site.Params.author }}</span>
-                    <span class="p-nickname vcard-username d-block"
-                        itemprop="additionalName">{{ .Site.Params.github }}</span>
                 </h1>
             </div>
 
@@ -47,7 +45,7 @@
                             <a class="u-email " href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
                         </li>
                         {{ end }}
-
+                        </br>
                         <li itemprop="url" data-test-selector="profile-website-url"
                             class="vcard-detail pt-1 css-truncate css-truncate-target"><svg class="octicon octicon-link"
                                 viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">

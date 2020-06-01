@@ -2,6 +2,7 @@ languageCode = "en-us"
 title = "Samrat Jha's Hub"
 theme = "github"
 Copyright = "Samrat Jha. All rights reserved."
+Header = "I spend all my time in Github"
 
 [Author]
   name = "Samrat Jha"
@@ -19,3 +20,4 @@ Copyright = "Samrat Jha. All rights reserved."
   utterances = "example/example.github.io"
   url = "https://example.com"
   keywords = "samrat jha, website, portfolio"
+  darkMode = "true"
