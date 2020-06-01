@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <link crossorigin="anonymous" media="all" rel="stylesheet" href="{{ "css/frameworks.css" | absURL }}" />
-    {{ if $.Site.Params.darkMode }}
+    {{ if eq $.Site.Params.darkMode "true" }}
       <link crossorigin="anonymous" media="all" rel="stylesheet" href="{{ "css/dark.css" | absURL }}" />
     {{ else }}
       <link crossorigin="anonymous" media="all" rel="stylesheet" href="{{ "css/github.css" | absURL }}" />
